@@ -1,0 +1,20 @@
+{
+    "name": "pixelant/pxa-vidyard",
+    "description": "Extension for Vidyard",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0+",
+    "autoload": {
+      "psr-4": {
+        "Pixelant\\PxaVidyard\\": "Classes/"
+      }
+    },
+    "require": {
+        "php": "7.2",
+        "typo3/cms-core": "^10.4"
+    },
+    "extra": {
+      "typo3/cms": {
+        "extension-key": "pxa_vidyard"
+      }
+    }
+}
