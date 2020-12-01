@@ -18,7 +18,6 @@ namespace Pixelant\PxaVidyard\Resource\OnlineMedia\Helpers;
 use TYPO3\CMS\Core\Resource\File;
 use TYPO3\CMS\Core\Resource\Folder;
 use TYPO3\CMS\Core\Resource\OnlineMedia\Helpers\AbstractOEmbedHelper;
-
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
