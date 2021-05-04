@@ -101,7 +101,7 @@ class VidyardRenderer implements FileRendererInterface
             ->addJavaScript('vidyard', 'EXT:pxa_vidyard/Resources/Public/Js/Lib/vidyard.js', ['async' => 'async']);
 
         return sprintf(
-            '<img class="vidyard-player-embed" src="https://play.vidyard.com/%s.jpg" data-uuid="%s"  data-v="4"  data-type="inline"/ data-autoplay="%s">',
+            '<img class="vidyard-player-embed" src="https://play.vidyard.com/%s.jpg" data-uuid="%s"  data-v="4"  data-type="inline" data-autoplay="%s"/>',
             htmlspecialchars($src, ENT_QUOTES | ENT_HTML5),
             htmlspecialchars($src, ENT_QUOTES | ENT_HTML5),
             $options['autoplay']
